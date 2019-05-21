@@ -128,7 +128,7 @@ header {
 
 .phone,
 .mail {
-    text-decoration: underline;
+    text-decoration: underline!important;
 }
 
 .exp_container {
