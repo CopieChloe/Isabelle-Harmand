@@ -126,6 +126,11 @@ header {
     color: rgb(129, 80, 129);
 }
 
+.phone,
+.mail {
+    text-decoration: underline;
+}
+
 .exp_container {
     display: flex;
     margin-bottom: 30px;
