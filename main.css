@@ -175,7 +175,8 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
-.reals {
+.reals,
+.education {
     background-color: rgba(109,50,109,0.2);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -228,7 +229,137 @@ header {
     width: 60vw;
     margin-left: 10vw;
     font-family: 'Open Sans', sans-serif;
-    color: rgb(114, 65, 114);
+    color: #724172;
+}
+
+.education {
+    background-color: rgba(109,50,109,0.3);
+}
+
+.education_container {
+    display: flex;
+    width: 90vw;
+    margin-left: 5vw;
+    padding-bottom: 5vh;
+}
+
+.education_date,
+.education_dot,
+.education_content {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.education_date {
+    width: 17vw;
+}
+
+.education_dot {
+    font-size: 3rem;
+    width: 5vw;
+}
+
+.education_content {
+    width: 60vw;
+    margin-left: 5vw;
+}
+
+.activities_container {
+    margin: 5vw;
+    width: 90vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activity_header {
+    background-color: rgb(139, 76, 139);
+    margin: 5vw;
+    width: 90vw;
+    padding: 5vw 0;
+}
+
+.activity_header>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-theater-masks,
+.fa-chalkboard-teacher {
+    font-size: 3rem;
+    margin-bottom: 5vw;
+    color: whitesmoke;
+}
+
+.fa-angle-double-down,
+.fa-angle-double-up {
+    font-size: 2rem;
+    color: whitesmoke;
+}
+.fa-angle-double-up {
+    color: rgb(179,127,179);
+}
+
+.activity_content {
+    background-color: whitesmoke;
+    color: rgba(109, 50, 109, 0.7);
+}
+
+.activity_content_teaching,
+.activity_content_theater {
+    display: none;
+}
+
+.activity_p {
+    margin-bottom: 5vh;
+}
+
+.up_container {
+    width: 90vw;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.up_teaching {
+    z-index: 10;
+    font-size: 1.2rem;
+}
+
+.contact_footer {
+    background-color: rgba(129, 80, 129, 0.658);
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link_footer {
+    text-decoration: none!important;
+}
+
+.icon_footer {
+    font-size: 2rem;
+    color: whitesmoke;
+    background-color: rgb(129, 80, 129);
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_footer:hover {
+    color: rgb(129, 80, 129);
+    background-color: whitesmoke;
+    transition: all 300ms ease-in-out;
 }
 
 /*
