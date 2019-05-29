@@ -59,6 +59,11 @@ header {
     width: 100vw;
 }
 
+.texte_cv_dl {
+    color: rgb(109, 50, 109);
+    margin-bottom: 50px;
+}
+
 .titre {
     text-align: center;
     height: 7vh;
