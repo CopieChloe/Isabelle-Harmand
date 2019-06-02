@@ -9,7 +9,7 @@ body, html {
 }
 
 html {
-    background-color: rgba(109, 50, 109, 0.102);
+    background-color: rgba(74, 108, 111, 0.301);
     padding-top: 5vh;
 }
 
@@ -34,7 +34,7 @@ header {
     width: 40vh;
     background-image: url("picture.jpg");
     background-position: center center;
-    border: 4px solid #6D326D;
+    border: 4px solid #4A6C6F;
     background-size: cover;
 }
 
@@ -47,7 +47,7 @@ header {
 }
 
 .name {
-    background-color: #976D97;
+    background-color: #4A6C6F;
     height: 10vh;
     text-align: center;
     line-height: 10vh;
@@ -60,15 +60,15 @@ header {
 }
 
 .texte_cv_dl {
-    color: rgb(109, 50, 109);
+    color: rgb(74, 108, 111);
     margin-bottom: 50px;
 }
 
 .titre {
     text-align: center;
     height: 7vh;
-    background-color: rgba(145, 78, 145,0.2);
-    color: rgb(109, 50, 109);
+    background-color: rgba(74, 108, 111,0.3);
+    color: rgb(74, 108, 111);
     padding: 10px;
     margin-bottom: 30px;
 }
@@ -78,7 +78,7 @@ header {
 }
 
 .soft_skill {
-    background-color: rgba(109, 50, 109, 0.5);
+    background-color: rgb(74, 108, 111);
     color: whitesmoke;
     height: 40px;
     font-family: 'Poiret One', cursive;
@@ -110,7 +110,7 @@ header {
 }
 
 .contact_container {
-    background-color: rgba(109, 50, 109, 0.2);
+    background-color: rgba(74, 108, 111, 0.301);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -133,7 +133,7 @@ header {
     padding-bottom: 7px;
     text-align: center;
     color: whitesmoke;
-    background-color: rgb(179, 127, 179);
+    background-color: rgb(74, 108, 111);
 }
 
 .contact_container>div>i {
@@ -142,7 +142,7 @@ header {
     margin: 0;
     font-size: 2rem;
     margin-left: 10vw;
-    color: rgb(114, 65, 114);
+    color: rgb(74, 108, 111);
     text-align: center;
 }
 
@@ -152,7 +152,7 @@ header {
     margin: 0;
     padding-left: 15px;
     text-decoration: none;
-    color: rgb(129, 80, 129);
+    color: rgb(74, 108, 111);
 }
 
 .phone,
@@ -167,7 +167,7 @@ header {
 
 .fa-graduation-cap {
     font-size: 1.5rem;    
-    color: rgb(114, 65, 114);
+    color: rgb(74, 108, 111);
 }
 
 .job_header {
@@ -180,7 +180,7 @@ header {
 
 .dates {
     margin-top: 5px;
-    color: rgb(114, 65, 114);
+    color: rgb(74, 108, 111);
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -192,7 +192,7 @@ header {
 
 .job_title {
     margin-bottom: 10px;
-    color: rgb(114, 65, 114);
+    color: rgb(74, 108, 111);
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
 }
@@ -200,13 +200,17 @@ header {
 .job_description {
     display: block;
     margin-bottom: 5px;
-    color: rgb(114, 65, 114);
+    color: rgb(74, 108, 111);
     font-family: 'Open Sans', sans-serif;
+}
+
+.reals {
+    background-color: rgba(74, 108, 111, 0.301);
 }
 
 .reals,
 .education {
-    background-color: rgba(109,50,109,0.2);
+    color: rgb(74, 108, 111);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -217,7 +221,7 @@ header {
     margin-bottom: 30px;
     margin-left: 5vw;
     border-radius: 5px;
-    background-color: rgb(179, 127, 179);
+    background-color: rgba(74, 108, 111, 0.76);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -251,18 +255,18 @@ header {
     font-size: 2rem;
     margin-left: 10vw;
     width: 10vw;
-    color: rgb(114, 65, 114);
+    color: rgb(74, 108, 111);
 }
 
 .skill_container>div {
     width: 60vw;
     margin-left: 10vw;
     font-family: 'Open Sans', sans-serif;
-    color: #724172;
+    color: rgb(74, 108, 111);
 }
 
 .education {
-    background-color: rgba(109,50,109,0.3);
+    background-color: rgba(74, 108, 111, 0.281);
 }
 
 .education_container {
@@ -279,7 +283,6 @@ header {
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     color: white;
-    font-weight: bold;
 }
 
 .education_date {
@@ -307,7 +310,7 @@ header {
 }
 
 .activity_header {
-    background-color: rgb(139, 76, 139);
+    background-color: rgba(74, 108, 111, 0.76);
     margin: 5vw;
     width: 90vw;
     padding: 5vw 0;
@@ -336,7 +339,7 @@ header {
 }
 
 .activity_content {
-    background-color: whitesmoke;
+    background-color: transparent;
     color: rgba(109, 50, 109, 0.7);
 }
 
@@ -362,7 +365,7 @@ header {
 }
 
 .contact_footer {
-    background-color: rgba(129, 80, 129, 0.658);
+    background-color: rgba(74, 108, 111, 0.76);
     height: 15vh;
     display: flex;
     justify-content: space-around;
@@ -376,7 +379,7 @@ header {
 .icon_footer {
     font-size: 2rem;
     color: whitesmoke;
-    background-color: rgb(129, 80, 129);
+    background-color: rgb(17, 61, 65);
     height: 10vh;
     width: 10vh;
     border-radius: 50%;
@@ -386,7 +389,7 @@ header {
 }
 
 .icon_footer:hover {
-    color: rgb(129, 80, 129);
+    color: rgb(17, 61, 65);
     background-color: whitesmoke;
     transition: all 300ms ease-in-out;
 }
